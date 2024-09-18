@@ -13,8 +13,16 @@ const config = {
     "plugin:@typescript-eslint/stylistic-type-checked"
   ],
   "rules": {
+    "@typescript-eslint/no-unsafe-call":"warn",
+    "@typescript-eslint/no-unsafe-member-access":"warn",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/no-unsafe-assignment": "warn",
+    "@typescript-eslint/no-redundant-type-constituents": "warn",
+    "@typescript-eslint/no-empty-interface": "off",
+    "@typescript-eslint/prefer-nullish-coalescing": "warn",
     "@typescript-eslint/array-type": "off",
     "@typescript-eslint/consistent-type-definitions": "off",
+    "@typescript-eslint/no-explicit-any": ["off"],
     "@typescript-eslint/consistent-type-imports": [
       "warn",
       {
